@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/layout"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@color/backColor"
+            android:textSize="40dp"
+            android:text="상세보기" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/di_title"
+            android:layout_width="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="5dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/di_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:gravity="right"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/di_contents"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/di_button"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="확인" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

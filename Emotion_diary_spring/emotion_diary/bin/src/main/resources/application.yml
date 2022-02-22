@@ -1,0 +1,17 @@
+server:
+  port: 8000
+  
+spring:     
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sass?serverTimezone=Asia/Seoul
+    username: cos
+    password: bitc5600
+    
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: create
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true

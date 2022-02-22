@@ -1,0 +1,53 @@
+/env_diary
+.idea
+*.pyc
+db.sqlite3
+__pycache__
+emotion_diary/.vscode/settings.json
+
+emotion_diary/frontend/node_modules/
+emotion_diary/frontend/static/frontend/
+emotion_diary/env-diary/
+.vscode/
+emotion_diary/frontend/package-lock.json
+
+Emotion_diary_spring/emotion_diary/.mvn/wrapper/maven-wrapper.jar
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+Emotion_diary_spring/emotion_diary/.mvn/
+Emotion_diary_spring/emotion_diary/.jython_cache
+*.pkc
+Emotion_diary_spring/Analysis/.pydevproject
+Emotion_Analysis/emo_env/
+
